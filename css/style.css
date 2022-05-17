@@ -1,4 +1,4 @@
-html {
+/* html {
   display: flex;
   justify-content: center;
 }
@@ -7,6 +7,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  text-align: left;
 }
 
 div {
@@ -22,4 +23,42 @@ img {
 
 p {
   max-width: 40%;
+  text-align: center; 
+} */
+
+/* #main {
+  
+} */
+
+body {
+  margin-right: 20%;
+  background-color: #eaeaea;
+}
+
+* {
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+div {
+  text-align: left;
+}
+
+div.content {
+  text-align: left;
+  padding-right: 35%;
+}
+
+img {
+  max-width: 30%;
+  max-height: auto;
+  border: 2px rgb(15, 15, 15) solid;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
 }
